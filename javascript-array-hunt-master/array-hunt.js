@@ -121,21 +121,24 @@ $("td#longName").text();
         Find all of the strings that do not contain the letter 's'.
         Output them to td#noEss
          */
-var output = [];
+
 $("td#noEss").text();
 
         /*
         Output all of the strings, but with all of their vowels
         in uppercase, to td#upperVowels
          */
-$("td#upperVowels").text(;)
+
+$("td#upperVowels").text();
 
         /*
         Output all of the strings in reverse order and separated by
         ' - ' to td#reverseDash
          */
-
-$("td#reverseDash").text();
+        var first = myArray[0];
+        var count = myArray.length
+        var last= myArray[count-1];
+$("td#reverseDash").text(last+" "+first);
     }
 
 });
