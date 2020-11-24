@@ -121,8 +121,11 @@ $("td#longName").text();
         Find all of the strings that do not contain the letter 's'.
         Output them to td#noEss
          */
-
-$("td#noEss").text();
+var essAussie = australianAnimals(1,2,3,4,5,6,7,12);
+var essChina = chineseFood(1,2,6,7,8,9,11);
+var essDino = dinosaurs (5,10);
+var essSolar = solarSystem (1,2,3,4,6);
+$("td#noEss").text(essAussie essChina essDino essSolar);
 
         /*
         Output all of the strings, but with all of their vowels
