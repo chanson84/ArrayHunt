@@ -131,8 +131,14 @@ $("td#noEss").text(essAussie essChina essDino essSolar);
         Output all of the strings, but with all of their vowels
         in uppercase, to td#upperVowels
          */
-
-$("td#upperVowels").text();
+var stringArray =[];
+for (var i of myArray){
+    var iString =i.split ("");
+    for (var j = 0; j = <iString.length; j++) {
+        if (iString[j] === "a" || iString[j] === "e"  || iString[j] === "i" || iString[j] === "o") || iString[j] === "u";
+   iString[j] = iString[j].toupperCase(); }
+}
+$("td#upperVowels").text(stringArray);
 
         /*
         Output all of the strings in reverse order and separated by
